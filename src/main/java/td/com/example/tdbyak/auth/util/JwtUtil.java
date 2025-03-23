@@ -12,8 +12,8 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    @Value("${jwt.secret}")
-    private static String SECRET_KEY;
+//    @Value("${jwt.secret}")
+    private static final String SECRET_KEY = "5GfG8dK3pL9mQ2vT7XyZbVxWcYzN6R1A";
     private static final long EXPIRATION_TIME = 1000 * 60 * 60; // 1 hour
 
     private Key getSigningKey() {

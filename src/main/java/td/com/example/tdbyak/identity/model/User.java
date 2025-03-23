@@ -30,6 +30,12 @@ public class User {
     public String getPassword(){
         return this.password;
     }
+    public String getPhone(){
+        return this.phone;
+    }
+    public String getEmail(){
+        return this.email;
+    }
     public void setPassword(String password){
         this.password = password;
     }
